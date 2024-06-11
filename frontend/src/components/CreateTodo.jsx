@@ -1,9 +1,10 @@
-export function CreateTodo(){
-    return
-    <div>
+ export function CreateTodo(){
+    return(
+    <>
         <input type="text" placeholder="title"></input> <br />
-        <input type="text" placeholder="title"></input> <br />
+        <input type="text" placeholder="description"></input> <br />
         <button>Add todo</button>
-    </div>
+    </>
+    )
 }
 // module.exports = CreateTodo

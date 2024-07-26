@@ -7,4 +7,4 @@ const todoschema=mongoose.Schema({
 })
 const todo=mongoose.model('todo',todoschema);
 
-module.exports=todo; 
+module.exports=todo;  

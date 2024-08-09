@@ -9,7 +9,7 @@ function App() {
     const [todos, setTodos]=useState({})
   return (
     <>
-     <CreateTodo></CreateTodo>
+     <CreateTodo></CreateTodo> 
      <Todos>todos={todos}</Todos>
     </>
   )
